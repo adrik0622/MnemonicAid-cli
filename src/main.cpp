@@ -29,8 +29,8 @@ int main() {
     // Define the exit status (0 for success, other values for failure)
     int exitStatus = 0; // Assuming successful execution for this example
 
-    // Append exit status to a log file
-    std::ofstream logFile("exit_log.txt", std::ios::app);
+    // Append exit status to a log file in the logs directory
+    std::ofstream logFile("../logs/exit_log.txt", std::ios::app);
     if (logFile.is_open()) {
         logFile << "Exit status: " << exitStatus << std::endl;
         logFile.close();
@@ -41,4 +41,3 @@ int main() {
 
     return exitStatus;
 }
-
