@@ -1,5 +1,6 @@
 #include "CardGame.h"
 #include <iostream>
+#include <fstream> // Include this header for file operations
 #include <cstdlib> // For system() function
 
 // Function to clear the terminal
@@ -45,3 +46,4 @@ void CardGame::displayMenu() {
         }
     }
 }
+
