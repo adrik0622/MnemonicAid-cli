@@ -16,15 +16,21 @@ void clearTerminal() {
 int main() {
     clearTerminal();
 
-    std::cout << "Welcome!" << std::endl;
-
-    // Read user input
     std::string userInput;
-    std::cout << "Please enter some input: ";
-    std::getline(std::cin, userInput);
+    bool exitFlag = false;
 
-    // Perform some action with user input (for now we just output it)
-    std::cout << "You entered: " << userInput << std::endl;
+    while (!exitFlag) {
+        std::cout << "Welcome to the mnemonic aid! How would you like to proceed?" << std::endl;
+        std::cout << "1. Exit" << std::endl;
+        std::cout << "Please enter your choice: ";
+        std::getline(std::cin, userInput);
+
+        if (userInput == "exit" || userInput == "Exit") {
+            exitFlag = true;
+        } else {
+            std::cout << "Command not recognized! Please try again." << std::endl;
+        }
+    }
 
     // Define the exit status (0 for success, other values for failure)
     int exitStatus = 0; // Assuming successful execution for this example
