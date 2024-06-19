@@ -2,6 +2,7 @@
 #include <fstream>
 #include <cstdlib> // For system() function
 #include <string>
+#include "CardGame.h"
 
 // Function to clear the terminal
 void clearTerminal() {
@@ -22,11 +23,15 @@ int main() {
     while (!exitFlag) {
         std::cout << "Welcome to the mnemonic aid! How would you like to proceed?" << std::endl;
         std::cout << "1. Exit" << std::endl;
+        std::cout << "2. Card Game" << std::endl;
         std::cout << "Please enter your choice: ";
         std::getline(std::cin, userInput);
 
-        if (userInput == "exit" || userInput == "Exit") {
+        if (userInput == "exit" || userInput == "Exit" || userInput == "1") {
             exitFlag = true;
+        } else if (userInput == "2") {
+            CardGame cardGame;
+            cardGame.displayMenu();
         } else {
             std::cout << "Command not recognized! Please try again." << std::endl;
         }
