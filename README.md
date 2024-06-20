@@ -6,6 +6,14 @@ MnemonicAid CLI is a command-line application designed to help users improve the
 
 I started working on MnemonicAid CLI due to my disappointment with the official memory leagues' paywall. I wanted a free, accessible tool to practice and improve my memory skills without any barriers. This project is still very rough around the edges and is in active development. However, as a tool that I plan to use frequently, it will receive consistent support and updates.
 
+## CLI Only Application
+
+MnemonicAid CLI is a command-line interface (CLI) only application and must be run from a terminal. It is compatible with Windows, macOS, and Linux. Make sure you have a terminal or command prompt available to run this application. As of now, there is a desire to make a gui application, but I personally lack the skills and abilities to make a gui or web application, so it's not part of any roadmap.
+
+### Windows Compatibility
+
+Ensure that you have a terminal or command prompt available. On Windows, you can use Command Prompt, PowerShell, or Windows Terminal. To compile the program, you may need to install a C++ compiler such as MinGW or use the Windows Subsystem for Linux (WSL).
+
 ## Table of Contents
 
 - [Installation](#installation)
