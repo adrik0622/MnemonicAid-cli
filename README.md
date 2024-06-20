@@ -8,23 +8,55 @@ I started working on MnemonicAid CLI due to my disappointment with the official 
 
 ## CLI Only Application
 
-MnemonicAid CLI is a command-line interface (CLI) only application and must be run from a terminal. It is compatible with Windows, macOS, and Linux. Make sure you have a terminal or command prompt available to run this application. As of now, there is a desire to make a gui application, but I personally lack the skills and abilities to make a gui or web application, so it's not part of any roadmap.
+MnemonicAid CLI is a command-line interface (CLI) only application and must be run from a terminal. It is compatible with Windows, macOS, and Linux. Make sure you have a terminal or command prompt available to run this application. There is currently some personal desire to migrate to a gui application or a web application, but there are currently no plans or roadmaps to make that a reality.
 
 ### Windows Compatibility
 
 Ensure that you have a terminal or command prompt available. On Windows, you can use Command Prompt, PowerShell, or Windows Terminal. To compile the program, you may need to install a C++ compiler such as MinGW or use the Windows Subsystem for Linux (WSL).
 
-## Table of Contents
+## Pre-Install Requirements
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Games](#games)
-  - [Card Game](#card-game)
-  - [Numbers Game](#numbers-game)
-  - [Words Game](#words-game)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
+### Windows
+
+1. **Install MinGW:**
+    - Download and install MinGW from [MinGW official site](http://www.mingw.org/).
+    - During installation, ensure you select the C++ compiler and `msys-base` package.
+    - Add the `bin` directory of MinGW to your system's PATH environment variable.
+
+2. **Install Windows Subsystem for Linux (WSL):**
+    - Follow the instructions from [Microsoft's WSL installation guide](https://docs.microsoft.com/en-us/windows/wsl/install).
+    - Once WSL is installed, you can use a Linux distribution from the Microsoft Store (e.g., Ubuntu) to run Linux commands and tools.
+
+### macOS
+
+1. **Install Homebrew (if not already installed):**
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
+2. **Install GNU Make and GCC:**
+    ```bash
+    brew install make gcc
+    ```
+
+### Linux
+
+1. **Install Build-Essential:**
+    - On Debian-based distributions (e.g., Ubuntu):
+        ```bash
+        sudo apt update
+        sudo apt install build-essential
+        ```
+
+    - On Red Hat-based distributions (e.g., Fedora):
+        ```bash
+        sudo dnf group install "Development Tools"
+        ```
+
+    - On Arch-based distributions (e.g., Arch Linux):
+        ```bash
+        sudo pacman -S base-devel
+        ```
 
 ## Installation
 
