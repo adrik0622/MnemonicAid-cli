@@ -4,7 +4,7 @@ CXXFLAGS = -Wall -std=c++11
 SRC_DIR = src
 BIN_DIR = bin
 TARGET = $(BIN_DIR)/mnemonic_aid
-SRC_FILES = $(SRC_DIR)/main.cpp $(SRC_DIR)/CardGame.cpp
+SRC_FILES = $(SRC_DIR)/main.cpp $(SRC_DIR)/CardGame.cpp $(SRC_DIR)/NumbersGame.cpp $(SRC_DIR)/WordsGame.cpp $(SRC_DIR)/Utils.cpp
 
 # Default target
 all: $(TARGET)
@@ -21,3 +21,4 @@ clean:
 
 # Phony targets
 .PHONY: all clean
+

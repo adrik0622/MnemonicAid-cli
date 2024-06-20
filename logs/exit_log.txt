@@ -2,3 +2,52 @@ Exit status: 0
 Exit status: 0
 Exit status: 0
 Exit status: 0
+Exit status: 0
+Exit status: 0
+Exit status: 0
+Card 1: J of Hearts (jh) User input: jh (J of Hearts)
+Card 2: A of Hearts (ah) User input: No input (No input)
+Card 3: 7 of Clubs (7c) User input: No input (No input)
+Card 4: 10 of Diamonds (10d) User input: No input (No input)
+Card 5: Q of Diamonds (qd) User input: No input (No input)
+Score: 0 out of 5
+Exit status: 0
+Card 1: 8 of Diamonds (shorthand: 8d), User input: 8d (shorthand: 8 of Diamonds)
+Card 2: J of Hearts (shorthand: jh), User input: No input (shorthand: No input)
+Card 3: 6 of Hearts (shorthand: 6h), User input: No input (shorthand: No input)
+Card 4: 10 of Spades (shorthand: 10s), User input: No input (shorthand: No input)
+Card 5: Q of Diamonds (shorthand: qd), User input: No input (shorthand: No input)
+Score: 0 out of 5
+Exit status: 0
+Card 1: 8 of Diamonds (shorthand: 8d), User input: 8d (shorthand: 8 of Diamonds)
+Card 2: A of Diamonds (shorthand: ad), User input: ad (shorthand: A of Diamonds)
+Card 3: 7 of Spades (shorthand: 7s), User input: 7s (shorthand: 7 of Spades)
+Card 4: 10 of Hearts (shorthand: 10h), User input: 3h (shorthand: 3 of Hearts)
+Card 5: 3 of Hearts (shorthand: 3h), User input: No input (shorthand: No input)
+Score: 0 out of 5
+Exit status: 0
+Card 1: K of Diamonds (shorthand: kd), User input: kd (shorthand: K of Diamonds)
+Card 2: 4 of Diamonds (shorthand: 4d), User input: - (shorthand: -)
+Card 3: 10 of Diamonds (shorthand: 10d), User input: 10d (shorthand: 10 of Diamonds)
+Card 4: A of Clubs (shorthand: ac), User input: ac (shorthand: A of Clubs)
+Card 5: 2 of Hearts (shorthand: 2h), User input: 2h (shorthand: 2 of Hearts)
+Score: 0 out of 5
+Card 1: 9 of Hearts (shorthand: 9h), User input: 9h (shorthand: 9 of Hearts)
+Card 2: A of Spades (shorthand: as), User input: as (shorthand: A of Spades)
+Card 3: 10 of Spades (shorthand: 10s), User input: 10s (shorthand: 10 of Spades)
+Card 4: J of Diamonds (shorthand: jd), User input: jd (shorthand: J of Diamonds)
+Card 5: 8 of Clubs (shorthand: 8c), User input: 8c (shorthand: 8 of Clubs)
+Score: 0 out of 5
+Card 1: 4 of Spades (shorthand: 4s), User input: No input (shorthand: No input)
+Card 2: J of Spades (shorthand: js), User input: No input (shorthand: No input)
+Card 3: A of Diamonds (shorthand: ad), User input: No input (shorthand: No input)
+Card 4: 2 of Hearts (shorthand: 2h), User input: No input (shorthand: No input)
+Card 5: 3 of Diamonds (shorthand: 3d), User input: No input (shorthand: No input)
+Score: 0 out of 5
+Exit status: 0
+Number 1: 124004, User input: 124004
+Number 2: 833421, User input: 833421
+Number 3: 155417, User input: 155417
+Number 4: 323110, User input: 323198
+Number 5: 868445, User input: 868445
+Score: 4 out of 5

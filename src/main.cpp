@@ -1,29 +1,22 @@
 #include <iostream>
 #include <fstream>
-#include <cstdlib> // For system() function
 #include <string>
 #include "CardGame.h"
-
-// Function to clear the terminal
-void clearTerminal() {
-    // System-specific command to clear the terminal screen
-    #if defined(_WIN32) || defined(_WIN64)
-        system("cls"); // Windows
-    #else
-        system("clear"); // Unix/Linux/MacOS
-    #endif
-}
+#include "NumbersGame.h"
+#include "WordsGame.h"
+#include "Utils.h"
 
 int main() {
-    clearTerminal();
-
     std::string userInput;
     bool exitFlag = false;
 
     while (!exitFlag) {
+        clearTerminal();
         std::cout << "Welcome to the mnemonic aid! How would you like to proceed?" << std::endl;
         std::cout << "1. Exit" << std::endl;
         std::cout << "2. Card Game" << std::endl;
+        std::cout << "3. Numbers Game" << std::endl;
+        std::cout << "4. Words Game" << std::endl;
         std::cout << "Please enter your choice: ";
         std::getline(std::cin, userInput);
 
@@ -32,6 +25,12 @@ int main() {
         } else if (userInput == "2") {
             CardGame cardGame;
             cardGame.displayMenu();
+        } else if (userInput == "3") {
+            NumbersGame numbersGame;
+            numbersGame.displayMenu();
+        } else if (userInput == "4") {
+            WordsGame wordsGame;
+            wordsGame.displayMenu();
         } else {
             std::cout << "Command not recognized! Please try again." << std::endl;
         }
@@ -52,3 +51,4 @@ int main() {
 
     return exitStatus;
 }
+
